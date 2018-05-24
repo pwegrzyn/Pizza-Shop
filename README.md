@@ -1,2 +1,2 @@
-# Pizza-Shop
+# Pizza-Store
 Decorator pattern usage example
