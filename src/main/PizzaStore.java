@@ -18,7 +18,8 @@ public class PizzaStore {
         System.out.println("\nWelcome to the pizza store! Currently serving:\n");
         for(int i = 0; i < todaysMenu.size(); i++)
         {
-            System.out.println("- Option " + (i+1) + ":\n" + todaysMenu.get(i).getDescription() + "\nPrice: " + todaysMenu.get(i).getPrice() + " zł\n");
+            System.out.println("- Option " + (i+1) + ":\n" + todaysMenu.get(i).getDescription() 
+                + "\nPrice: " + todaysMenu.get(i).getPrice() + " zł\n");
         }
         
         System.out.println("----------------------------");
@@ -26,7 +27,8 @@ public class PizzaStore {
 
         Pizza clientOrder = new CheeseTopping(optionOne);
         
-        System.out.println("The clients order: " + clientOrder.getDescription() + " (" + clientOrder.getPrice() + " zł)\n");
+        System.out.println("The clients order: " + clientOrder.getDescription() + " (" 
+            + clientOrder.getPrice() + " zł)\n");
 
     }
 
